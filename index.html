@@ -1,22 +1,23 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reverse String</title>
+    <title>PDF Viewer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Reverse String</h1>
-    <input type="text" id="inputString" placeholder="Enter a string">
-    <button onclick="reverseString()">Reverse</button>
-    <p id="output"></p>
+    <h1>PDF Viewer</h1>
+    <select id="pdfSelect">
+        <option value="" disabled selected>Select a PDF file</option>
+    </select>
+    <br>
+    <button onclick="viewPDF()">View PDF</button>
+    <button onclick="downloadPDF()">Download PDF</button>
+    <br>
+    <iframe id="pdfViewer" width="100%" height="500px" style="border: 1px solid black;"></iframe>
 
-    <script>
-        function reverseString() {
-            var input = document.getElementById('inputString').value;
-            var reversed = input.split('').reverse().join('');
-            document.getElementById('output').innerText = reversed;
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
