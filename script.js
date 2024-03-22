@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 
     // Function to download selected PDF
-    window.downloadPDF = function() {
+   /* window.downloadPDF = function() {
         var selectedPDF = pdfSelect.value;
         if (selectedPDF) {
             var link = document.createElement("a");
@@ -44,4 +44,5 @@ document.addEventListener("DOMContentLoaded", function() {
             alert("Please select a PDF file.");
         }
     };
+    */
 });
