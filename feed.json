@@ -1,0 +1,25 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "awessome study material",
+    "description": "",
+    "home_page_url": "https://xliszt.github.io",
+    "feed_url": "https://xliszt.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "elgato"
+    },
+    "items": [
+        {
+            "id": "https://xliszt.github.io/hello.html",
+            "url": "https://xliszt.github.io/hello.html",
+            "title": "hello",
+            "author": {
+                "name": "elgato"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-05-19T13:28:06+01:00",
+            "date_modified": "2024-05-19T13:28:06+01:00"
+        }
+    ]
+}
